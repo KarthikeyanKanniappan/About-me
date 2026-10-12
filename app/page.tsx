@@ -4,7 +4,7 @@ import { profile } from "@/content/profile";
 
 export default function Home() {
   return (
-    <section className="container-page grid items-center gap-12 py-16 md:grid-cols-2 md:gap-16 md:py-24">
+    <section className="container-page grid items-center gap-10 py-12 md:grid-cols-[2fr_3fr] md:gap-16 md:py-24">
       <Image
         src={profile.photo}
         alt={`Portrait of ${profile.name}`}
@@ -12,8 +12,8 @@ export default function Home() {
         height={600}
         priority
         unoptimized={profile.photo.endsWith(".svg")}
-        sizes="(min-width: 768px) 50vw, 100vw"
-        className="mx-auto aspect-square w-full max-w-md rounded-full object-cover grayscale"
+        sizes="(min-width: 768px) 320px, (min-width: 640px) 256px, 192px"
+        className="mx-auto aspect-square w-48 rounded-full sm:w-64 md:w-full md:max-w-xs object-cover"
       />
 
       <div>
