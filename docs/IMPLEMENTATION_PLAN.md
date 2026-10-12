@@ -3,7 +3,7 @@
 Source: `~/Downloads/portfolio-plan.md`. This file turns that plan into ordered steps we can review, then implement one milestone at a time. Each milestone ends with a check, and a commit.
 
 **Environment (checked 2026-10-12):** Node 20.11.1 · npm 10.2.4 · create-next-app 16.4.0 · Tailwind 4.3.3
-**Repo:** `Portfolio/` is its own git repo, `origin → KarthikeyanKanniappan/About-me`, `main`, no commits yet. GitHub already has one commit (`README.md`).
+**Repo:** `Portfolio/` is its own git repo, `origin → KarthikeyanKanniappan/About-me`, `main`. (The GitHub repo turned out to be empty, so step 1.2's merge was not needed.)
 
 ## Status (2026-10-12)
 
