@@ -3,11 +3,11 @@ import { Download } from "lucide-react";
 import { PageTitle } from "@/components/PageTitle";
 import { ResumeSection } from "@/components/ResumeSection";
 import { TimelineItem } from "@/components/TimelineItem";
-import { cvUrl, education, experience, skills } from "@/content/resume";
+import { certifications, cvUrl, education, experience, skills } from "@/content/resume";
 
 export const metadata: Metadata = {
   title: "Resume",
-  description: "Work experience, education and skills.",
+  description: "Work experience, education, certifications and skills.",
 };
 
 export default function ResumePage() {
@@ -38,6 +38,14 @@ export default function ResumePage() {
       <ResumeSection title="Education">
         <div className="space-y-12">
           {education.map((entry) => (
+            <TimelineItem key={`${entry.period}-${entry.title}`} {...entry} />
+          ))}
+        </div>
+      </ResumeSection>
+
+      <ResumeSection title="Certifications">
+        <div className="space-y-12">
+          {certifications.map((entry) => (
             <TimelineItem key={`${entry.period}-${entry.title}`} {...entry} />
           ))}
         </div>

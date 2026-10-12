@@ -11,16 +11,15 @@ export type Profile = {
 };
 
 export const profile: Profile = {
-  name: "Alex Morgan",
+  name: "Karthikeyan Kanniappan",
   role: "Full-Stack Engineer",
-  bio: "I build fast, accessible web apps with React, Next.js and TypeScript. I care about clean interfaces, solid foundations and shipping things people actually use.",
-  photo: "/images/profile.svg",
-  email: "hello@example.com",
+  bio: "Full-stack engineer building for the AI era. I create agents, MCP connectors and Claude Skills, and the tools that make existing apps agent-friendly.",
+  photo: "/images/profile.jpg",
+  email: "kartii.321@gmail.com",
   location: "Chennai, India",
   socials: {
-    linkedin: "https://www.linkedin.com/",
-    github: "https://github.com/",
-    x: "https://x.com/",
+    linkedin: "https://www.linkedin.com/in/karthikeyan-k-816662149",
+    github: "https://github.com/KarthikeyanKanniappan",
   },
 };
 

@@ -1,44 +1,45 @@
-// TODO: replace the dummy data below with your own experience.
 export type TimelineEntry = {
   period: string;
   title: string;
   org?: string;
-  description: string;
+  description?: string;
 };
 
 export const experience: TimelineEntry[] = [
   {
-    period: "2023 – Present",
-    title: "Module Lead",
-    org: "Acme Software",
-    description:
-      "Lead a team of five building the desktop client and its web dashboard. Own architecture, code review and release planning.",
+    period: "Apr 2023 – Present",
+    title: "Junior Software Engineer",
+    org: "Full Creative Pvt Ltd, Chennai",
   },
   {
-    period: "2021 – 2023",
-    title: "Senior Frontend Engineer",
-    org: "Northwind Labs",
-    description:
-      "Rebuilt the customer portal in React and TypeScript, cutting page load time by 40% and introducing a shared component library.",
+    period: "May 2021 – Jun 2022",
+    title: "Design Engineer",
+    org: "APA Engineering Pvt Ltd, Chennai",
   },
   {
-    period: "2019 – 2021",
-    title: "Software Engineer",
-    org: "Globex",
-    description:
-      "Built REST APIs and internal tools, and moved the team from manual deploys to CI/CD.",
+    period: "Feb 2018 – Feb 2021",
+    title: "Junior Engineer",
+    org: "Wheels India Pvt Ltd, Chennai",
   },
 ];
 
 export const education: TimelineEntry[] = [
   {
-    period: "2015 – 2019",
-    title: "B.E. Computer Science",
-    org: "Anna University",
-    description: "Focused on distributed systems and human-computer interaction.",
+    period: "2013 – 2017",
+    title: "B.E. Mechanical Engineering",
+    org: "JNN Institute of Engineering (affiliated to Anna University)",
   },
 ];
 
+export const certifications: TimelineEntry[] = [
+  {
+    period: "Nov 2022",
+    title: "Full Stack Development",
+    org: "GUVI Geek Networks, IITM Research Park",
+  },
+];
+
+// TODO: replace with your own skills.
 export const skills: string[] = [
   "TypeScript",
   "React",
